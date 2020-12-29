@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Search from "./Search";
+import axios from "axios";
+import ReactAnimatedWeather from 'react-animated-weather';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Search />
   </React.StrictMode>,
   document.getElementById('root')
 );

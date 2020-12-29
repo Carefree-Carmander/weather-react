@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  font-family: sans-serif;
+  border-radius: 12px;
+  background: lightgrey;
 }
 
 .App-logo {

@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Search from "./Search";
+import Link from './Link';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Search />
+    <Link />
   </React.StrictMode>,
   document.getElementById('root')
 );

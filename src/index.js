@@ -4,8 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Search from "./Search";
-import axios from "axios";
-import ReactAnimatedWeather from 'react-animated-weather';
 
 
 ReactDOM.render(
